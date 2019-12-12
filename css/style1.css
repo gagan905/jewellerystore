@@ -1,0 +1,157 @@
+
+
+.intext {
+  
+  margin-bottom: 15px;
+  padding: 12px;
+ margin-left: 200px;
+ 
+    width: 50%;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+    
+     margin-left: 200px;
+}
+.sel{
+  margin-bottom: 10px;
+  display: block;
+    width: 150px;
+     margin-left: 200px;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+
+
+#ff
+{
+   background-color: #6f2412;
+    
+     color:beige;
+    text-emphasis-color: cornsilk;
+    
+}
+
+
+ .name {
+	font-weight:bold;
+     text-align: center;
+	}
+.price
+{
+     
+    text-align: center;
+}
+
+.btn
+{
+    
+    text-transform: uppercase;
+    background-color: #6c757d;
+    border: 1px solid #6c757d;
+    cursor: pointer;
+    color: beige;
+    padding: 8px 40px;
+    margin-top: 10px;
+    margin-left: 165px;
+
+     display: flex; 
+    justify-content: center;
+}
+.cart00 {
+	text-transform: uppercase;
+    background: #6c757d;
+    border: 1px solid #6c757d;
+    cursor: pointer;
+    color: beige;
+    padding: 8px 40px;
+    margin-top: 10px;
+    margin-left: 65px;
+
+     display: flex; 
+    justify-content: center;}
+
+
+.product_wrapper
+{
+    float: left;
+padding-left: 200px;
+    padding-top: 100px;
+ 
+}
+@-ms-viewport {
+  width: device-width;
+}
+
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+    
+    .product_wrapper
+{
+    float: left;
+padding-left: 10px;
+    padding-top: 10px;
+ 
+}
+    
+    
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+
+#cart00 {
+      width: 150px;
+     margin: 10px 0;
+    padding-top: 5px;
+    margin-left: 100px;
+      background-color:#6c757d;
+       color:beige;
+  border: none;
+    text-emphasis-color: cornsilk;
+    
+}
+
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+    
+    .cart00
+    {
+        margin-left: 0px;
+    }
+}
+
+

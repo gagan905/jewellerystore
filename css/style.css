@@ -1,0 +1,151 @@
+#ff
+{
+
+
+    background-color: #6f2412;
+    
+     color:beige;
+    text-emphasis-color: cornsilk;
+
+    
+}
+
+
+.b1
+{
+    background-color: #eee;
+}
+
+#fcolor
+{
+    background-color: #6f2412;
+    
+     color:beige;
+    text-emphasis-color: cornsilk;
+}
+.hh
+{
+    color: #6f2412;
+   
+}
+
+
+
+#exp
+{    background-color:#6c757d;
+    
+     color:beige;
+    text-emphasis-color: cornsilk;
+     width: 300px;
+      margin-left: 400px;
+     padding-top: 15px;
+    padding-bottom: 15px;
+     padding-left: 15px;
+    padding-right: 15px;
+}
+
+#cart00
+{
+     width: 150px;
+     margin: 10px 0;
+    padding-top: 5px;
+    margin-left: 100px;
+      background-color:#6c757d;
+       color:beige;
+  border: none;
+    text-emphasis-color: cornsilk;
+}
+
+
+
+#newcart
+{
+     width: 150px;
+     margin: 10px 0;
+    padding-top: 5px;
+    margin-left: 100px;
+      background-color:#6c757d;
+       color:beige;
+  border: none;
+    text-emphasis-color: cornsilk;
+}
+
+#cont
+{
+ margin-left: 100px;
+    padding-left: 200px;
+}
+
+
+#navcolor
+{
+    background-color: #6f2412;
+    color:beige;
+    text-emphasis-color: cornsilk;
+}
+
+
+
+
+#anchor
+{
+
+    
+    color:beige;
+}
+.message_box .box{
+	margin: 10px 0px;
+   
+    text-align: center;
+    font-weight: bold;
+  
+	}
+.table td {
+	border-bottom: #F0F0F0 1px solid;
+	padding: 10px;
+	}
+.cart_div {
+	float:right;
+	font-weight:bold;
+	position:relative;
+    color: beige;
+	}
+.cart_div a {
+	color:#000;
+    color: beige;
+	}	
+.cart_div span {
+	font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 0px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: 13px;
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+	}
+.cart .remove {
+    background: none;
+    border: none;
+    color: #0067ab;
+    cursor: pointer;
+    padding: 0px;
+	}
+
+
+@media screen and (max-width: 1060px) {
+   #cont
+    {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+#exp
+    {
+        margin-left: 50px;
+    }
+} 
